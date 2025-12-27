@@ -3,10 +3,10 @@ from flask import Flask, render_template_string, request
 app = Flask(__name__)
 
 seats = {
-    "A1": "free",
-    "A2": "free",
-    "A3": "free",
-    "A4": "free"
+    "A1": "550",
+    "A2": "440",
+    "A3": "330",
+    "A4": "220"
 }
 
 html = """
